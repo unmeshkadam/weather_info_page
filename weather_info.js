@@ -1,11 +1,7 @@
-
-	function showTime(){
+function showTime(){
     var date = new Date();
 	const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-
-
-let day = weekday[date.getDay()];
-
+	let day = weekday[date.getDay()];
     var h = date.getHours(); // 0 - 23
     var m = date.getMinutes(); // 0 - 59
     var session = "AM";
@@ -25,9 +21,7 @@ let day = weekday[date.getDay()];
     var time = h + ":" + m + " " + session;
     document.getElementById("clockDisplay").innerText = day+ ", "+time;
   
-    
-    setTimeout(showTime, 1000);
-    
+    setTimeout(showTime, 1000);   
 }
 showTime();
 	
