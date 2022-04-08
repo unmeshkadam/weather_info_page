@@ -1,11 +1,11 @@
  body {
- font-family: Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-  background: 	#B2BEB5;
- align-items: center;
+font-family: Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+background: 	#B2BEB5;
+align-items: center;
 }
 .main-container{
-  border-radius: 10px;
-  background-color: #E5E4E2;
+ border-radius: 10px;
+ background-color: #E5E4E2;
  display: flex;
 }
 
@@ -20,16 +20,11 @@ text-align: center;
 padding: 20px 40px 20px 40px;
 border-right: inset;
 }
-
-
-
-
 .city-title {
 font-weight: 500;
 margin: 30px;
 font-size: 60px;
 opacity: 0.7;
-
 }
 
 .weather-type {
@@ -44,15 +39,12 @@ font-size: 90px;
 font-weight: 500;
 margin: 30px;
 opacity: 0.8;
-
 }
-
 
 .weather-attr-div-main{
 display: flex;
 flex-direction: column;
 }
-
 
 .weather-attr-div {
 display : flex;
@@ -89,7 +81,6 @@ font-size: 25px;
 font-weight: 500;
 opacity: 0.5;
  margin: 10px 0px 5px 0px;
-
 }
 
 .date-time-div {
